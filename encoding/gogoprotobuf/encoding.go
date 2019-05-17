@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/goadesign/goa"
+	"github.com/keitaroinc/goa"
 	"github.com/gogo/protobuf/proto"
 )
 

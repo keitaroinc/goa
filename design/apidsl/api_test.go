@@ -1,9 +1,9 @@
 package apidsl_test
 
 import (
-	. "github.com/goadesign/goa/design"
-	. "github.com/goadesign/goa/design/apidsl"
-	"github.com/goadesign/goa/dslengine"
+	. "github.com/keitaroinc/goa/design"
+	. "github.com/keitaroinc/goa/design/apidsl"
+	"github.com/keitaroinc/goa/dslengine"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -179,7 +179,7 @@ var _ = Describe("API", func() {
 			})
 
 			Context("using a custom encoding package", func() {
-				const pkgPath = "github.com/goadesign/goa/encoding/json"
+				const pkgPath = "github.com/keitaroinc/goa/encoding/json"
 				const fn = "NewFoo"
 
 				BeforeEach(func() {

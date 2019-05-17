@@ -1,8 +1,8 @@
 package apidsl
 
 import (
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
+	"github.com/keitaroinc/goa/design"
+	"github.com/keitaroinc/goa/dslengine"
 )
 
 // Response can be used in: Action, Resource

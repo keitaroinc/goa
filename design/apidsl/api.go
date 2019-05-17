@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
+	"github.com/keitaroinc/goa/design"
+	"github.com/keitaroinc/goa/dslengine"
 )
 
 // API is a top level DSL.
@@ -51,7 +51,7 @@ import (
 //		Consumes("application/json")
 //		Produces("application/gob")
 //		Produces("application/json", func() {   // Custom encoder
-//			Package("github.com/goadesign/goa/encoding/json")
+//			Package("github.com/keitaroinc/goa/encoding/json")
 //		})
 //		ResponseTemplate("static", func() {	// Response template for use by actions
 //			Description("description")
